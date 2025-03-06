@@ -24,19 +24,17 @@ public class bank {
         if (number>Balance){
             System.out.println("Insufficient Balance");  
         }
-        else {
+        else if (number<Balance){
             Balance=Balance-number;
             System.out.println(" Balance after withdraw:" +Balance);
         }
 
     }   
     public static void main(String[] args) {
-            bank obj = new bank ("Mahesh",521250,10000);
-            obj.display();
-            obj.deposit(2000);
-            System.out.println("Withdrawl amount:"+number);
+        bank obj = new bank ("Mahesh",521250,10000);
+        obj.display();
+        obj.deposit(2000);
         obj.withdraw(1500);
-
 
         
     }
