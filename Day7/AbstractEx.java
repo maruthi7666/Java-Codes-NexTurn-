@@ -18,3 +18,4 @@ public class AbstractEx {
         obj.teach();
     }
 }
+
